@@ -1,8 +1,126 @@
-## 🙋‍♀️ 안녕하세요!
-AI를 활용한 여러 기능들을 제공하는 애플리케이션입니다.
-<!--
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+# 🙋‍♀️ 안녕하세요 유진스 입니다!
+저희 유진스는 아파트(건물) 보안요원을 위한 종합 AI 관제 플랫폼 'ShieldU'를 개발 및 공급합니다. 
+
+<br>
+
+## ShieldU 플랫폼 소개
+현대 아파트의 보안 시스템은 점점 복잡해지고 있으며, 보안 요원들은 다양한 보안 업무를 수행해야 합니다. 그러나 보안 요원들이 사용하는 시스템은 불편하거나, 실시간 상황 대응이 어렵고, 효율적인 관리 도구가 부족한 경우가 많습니다.  
+이를 해결하기 위해 **ShieldU**는 보안 요원이 보다 효율적으로 아파트 내 보안을 관리하고, 긴급 상황에 신속하게 대처할 수 있도록 지원하는 플랫폼을 제공합니다.
+
+<br>
+
+## ShieldU 플랫폼 구성요소
+ShieldU 플랫폼은 기존의 아날로그적 방식 또는 불편한 디지털 시스템을 개선하여 보안 요원의 작업 효율을 극대화할 수 있는 **3가지 주요 기능**을 제공합니다. 
+
+### 🚧 출입금지 구역_침입자 감지 시스템
+**출입금지 구역**과 **핵심 보안 시설**의 안전을 최우선으로, 실시간 **객체 인식 및 경고 시스템(YOLO8)**이 모든 접근을 철저히 감시합니다.  
+이 시스템은 보안 시설에 접근하는 **모든 인원**을 탐지하고, 접근 권한 여부에 상관없이 **즉각 경고**를 보냅니다.  
+특히, **접근 권한이 있는 인원**일지라도, 보안요원의 2차 확인 절차를 통해 출입을 허가함으로써 **보안의 신뢰도를 극대화**합니다.  
+침입자 감지 시스템을 통해 예상치 못한 사고를 미연에 방지하고, 핵심 구역의 안전을 한층 강화할 수 있습니다.
+
+<br>
+
+### 🤖 실시간 지능형 챗봇 기능
+보안에 있어 가장 중요한 것은 상황 발생 시 **정해진 매뉴얼**에 따라 **신속하고 정확하게 대응**하는 것입니다.  
+하지만, **방대한 매뉴얼**을 완벽히 숙지하는 것은 어렵고, 긴급한 상황에서는 **즉각적인 판단**이 쉽지 않습니다.
+
+**ShieldU**의 **실시간 지능형 챗봇**은 보안 현장에서 **효율적이고 적절한 대응**을 가능하게 하며, 다양한 상황에서 **사용자의 필요에 맞춘 맞춤형 정보**를 제공합니다.  
+특히 매뉴얼을 잘 숙지하지 못했거나, 긴급한 상황에서 빠른 판단이 필요한 경우에도 챗봇이 정확한 지침을 제공해 **사고를 최소화**할 수 있습니다.
+
+#### 💎 프리미엄 챗봇: GPT-3.5-Turbo 기반
+프리미엄 챗봇은 **OpenAI GPT-3.5-Turbo** 모델을 기반으로 하여, 긴급 상황에서도 상황의 맥락을 잘 이해하고 **정교하고 상세한 답변**을 제공합니다.  
+복잡한 보안 매뉴얼 해석이나 고객 맞춤형 보안 상담에 적합합니다.
+
+#### ⚡ 이코노미 챗봇: Google Gemma-2 기반
+이코노미 챗봇은 **Google Gemma-2** 모델을 기반으로 하며, **일상적인 보안 매뉴얼 정보**와 **기본적인 긴급 대응 절차**를 제공합니다.  
+리소스 절약과 빠른 응답이 필요할 때 유용하며, 평상시 사용에 적합한 매뉴얼 안내를 받을 수 있습니다.
+
+<br>
+
+### 🛡 시스템 비정상적 접근(해킹) 탐지 기능
+보안 플랫폼에서 **비정상적인 접근**을 탐지하는 것은 **시스템의 안전**을 유지하는 데 핵심적인 요소입니다.  
+**ShieldU**의 **비정상적 접근 탐지 기능**은 해킹 시도나 의심스러운 접근을 사전에 차단하며, 철저한 보안 검증을 통해 플랫폼의 안전성을 보장합니다.  
+특히, 사용자(보안요원)가 시스템에 접근하기 전, 여러 개의 비슷한 사진 중 **특정 이미지를 선택**하도록 요구하는 보안 검증 절차를 통해 **비정상적인 접근 시도를 빠르게 감지**하고 대응할 수 있습니다.
+
+<br>
+
+## 🛠 ShieldU 플랫폼 주요 함수
+
+### 실시간 객체 인식 및 경고 시스템 주요 함수
+
+
+<br>
+
+### 지능형 챗봇 기능 주요 함수
+
+#### 📄 PDF 파일 업로드 및 처리 기능
+PDF 파일을 서버에 저장한 후, PyPDFLoader를 통해 텍스트로 변환합니다. 텍스트는 1000자 단위로 분할되며, 중복된 200자를 포함하여 문맥을 유지합니다. 생성된 텍스트 조각은 Hugging Face 임베딩 모델로 벡터화된 후 Chroma DB에 저장됩니다. Chroma DB는 유사한 문서를 빠르게 검색하여 ChatGPT API로 답변을 생성할 수 있도록 지원합니다.
+
+```python
+def process_pdf(self, pdf_file):
+    file_path = os.path.join('uploads', pdf_file.filename)
+    pdf_file.save(file_path)
+
+    loader = PyPDFLoader(file_path)
+    data = loader.load()
+
+    text = "".join([doc.page_content for doc in data])
+    text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
+    chunks = text_splitter.split_text(text)
+
+    self.vector_store = Chroma.from_texts(chunks, self.embeddings)
+```
+<br>
+
+#### ❓ 질문에 대한 답변 생성
+사용자가 입력한 질문을 벡터 DB에서 검색하여 관련 문서를 찾습니다. GPT-3.5-turbo 모델은 검색된 문서를 바탕으로 답변을 생성합니다. 대화 기록인 `chat_history`를 사용해 문맥을 유지하며 일관성 있는 답변을 제공합니다.
+
+```python
+def get_answer(self, question):
+    if self.vector_store is None:
+        return "먼저 PDF 파일을 업로드하세요."
+
+    docs = self.vector_store.similarity_search(question)
+
+    llm = ChatOpenAI(api_key=self.openai_api_key, model="gpt-3.5-turbo", temperature=0.1)
+    chain = ConversationalRetrievalChain.from_llm(llm, self.vector_store.as_retriever())
+
+    inputs = {"question": question, "chat_history": self.chat_history}
+    result = chain.run(inputs)
+
+    self.chat_history.append((question, result))
+    return result
+```
+<br>
+
+#### 🖥 Flask API 호출
+PDF 파일 업로드와 질문에 대한 답변을 제공하는 두 가지 API를 통해 사용자와 상호작용합니다.
+
+```python
+@app.route('/upload_pdf', methods=['POST'])
+def upload_pdf():
+    if 'pdf' not in request.files:
+        return jsonify({"error": "파일을 선택해주세요."}), 400
+
+    pdf_file = request.files['pdf']
+    if pdf_file.filename == '':
+        return jsonify({"error": "선택된 파일이 없습니다."}), 400
+
+    lc_helper.process_pdf(pdf_file)
+    return jsonify({"message": "PDF 파일이 성공적으로 업로드되었습니다."})
+
+@app.route('/ask_question', methods=['POST'])
+def ask_question():
+    question = request.json.get('question')
+    if not question:
+        return jsonify({"error": "질문을 입력해주세요."}), 400
+
+    answer = lc_helper.get_answer(question)
+    return jsonify({"answer": answer})
+```
+<br>
+
+### 시스템 비정상적 접근(해킹) 탐지 기능 주요 함수
+
+
+
